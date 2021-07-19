@@ -1,0 +1,33 @@
+s<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>WEATHER</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form id="search-form">
+		<input type="search"
+		 placeholder="enter city name"
+		 id="search-input" 
+		 required
+		 autocomplete="off"/>
+		 <br></br>
+		 <button id="search-button">search</button>
+	</form>
+	<main id="temp-box">
+		<div id="location">
+			<p>------</p>
+		</div>
+		<div id="temp">
+			<img id="temp-icon" src="./image 1/weather.png" alt="">
+			<p><span id="temp-value">------</span><span id="temp unit">&#176c</span></p>
+		</div>
+		<div id="climate">
+			<p>---------</p>
+		</div>
+	</main>
+	<script src="script.js"></script>
+
+</body>
+</html>
